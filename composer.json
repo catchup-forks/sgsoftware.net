@@ -52,7 +52,8 @@
             "WebEd\\Base\\Elfinder\\": "base/elfinder/src",
             "WebEd\\Plugins\\Pages\\": "plugins/pages/src",
             "WebEd\\Themes\\Sgsoftware\\": "themes/sgsoftware/src",
-            "WebEd\\Plugins\\CustomFields\\": "plugins/custom-fields/src"
+            "WebEd\\Plugins\\CustomFields\\": "plugins/custom-fields/src",
+            "WebEd\\Plugins\\Blog\\": "plugins/blog/src"
         }
     },
     "autoload-dev": {
