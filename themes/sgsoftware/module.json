@@ -1,0 +1,11 @@
+{
+    "alias": "sgsoftware",
+    "name": "Saigon Software business theme",
+    "author": "Tedozi Manson",
+    "description": "Saigon Software business theme",
+    "namespace": "WebEd\\Themes\\Sgsoftware",
+    "version": "1.0",
+    "autoload": "psr-4",
+    "enabled": true,
+    "installed": true
+}

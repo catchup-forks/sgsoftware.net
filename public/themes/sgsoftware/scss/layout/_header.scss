@@ -1,0 +1,85 @@
+/* ==========================================================================
+Header
+========================================================================== */
+.header {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  @media (min-width: $screen-sm) {
+    padding-bottom: 40%;
+  }
+  .navbar {
+    background-color: transparent;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-width: 0;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    .navbar-nav > li {
+      font-size: 17px;
+      &.active {
+        background-color: transparent;
+        > a {
+          background-color: transparent;
+        }
+      }
+      > a {
+        color: #ffffff;
+      }
+    }
+    .navbar-brand {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      img {
+        height: 50px;
+      }
+    }
+    @media (max-width: $screen-xs-max) {
+      .navbar-collapse {
+        background-color: rgba(#FFF, 0.8);
+        a {
+          color: $text-color !important;
+        }
+      }
+    }
+  }
+
+  .header-text {
+    color: #fff;
+    text-align: center;
+    @media (min-width: $screen-sm) {
+      @include center();
+      padding: 30px 50px;
+      border: 1px solid #ffffff;
+    }
+    @media (max-width: $screen-xs-max) {
+      padding: 100px 30px 50px;
+    }
+    .cross-btn {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -22px;
+      text-align: center;
+      .btn {
+        background-color: #ec1163;
+        color: #ffffff;
+        border: 1px solid transparent;
+        border-radius: 30px;
+        font-size: 16px;
+        padding: 10px 50px;
+        -webkit-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+        line-height: 1.6;
+      }
+    }
+  }
+}
